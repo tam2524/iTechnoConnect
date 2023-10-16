@@ -10,38 +10,74 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
-<nav class="navbar navbar-expand-lg ">
-    <div class="container">
-        <a class="navbar-brand" href="index.html">
-            <img src="logo.png" alt="Your Logo" class="logo">
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="about.html">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="faculties.html">Faculties</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="updates.html">Updates</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="iFind.html">iFind</a>
-                </li>
-            </ul>
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="logo.png" alt="Your Logo" class="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="faculties.html">Faculties</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="updates.html">Updates</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="iFind.html">iFind</a>
+                    </li>
+                    <li class="nav-item social-icons ml-3   ">
+                        <a href="https://www.facebook.com/ComputerEngineeringStudentSociety">
+                            <img src="LOGOS/1.png" alt="CESS" onclick="window.location.href = 'https://www.facebook.com/ComputerEngineeringStudentSociety'">
+                        </a>
+                    </li>
+                    <li class="nav-item social-icons">
+                        <a href="https://www.facebook.com/cetpicecpc">
+                            <img src="LOGOS/3.png" alt="PICE" onclick="window.location.href = 'https://www.facebook.com/cetpicecpc'">
+                        </a>
+                    </li>
+                    <li class="nav-item social-icons">
+                        <a href="https://www.facebook.com/profile.php?id=100063894021887">
+                            <img src="LOGOS/4.png" alt="IIEE" onclick="window.location.href = 'https://www.facebook.com/profile.php?id=100063894021887'">
+                        </a>
+                    </li>
+                    <li class="nav-item social-icons">
+                        <a href="https://www.facebook.com/profile.php?id=61551090029106">
+                            <img src="LOGOS/5.png" alt="IIEE" onclick="window.location.href = 'https://www.facebook.com/profile.php?id=61551090029106'">
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
-    </div>
-</nav>
+    </nav>
+  <main>
+    <section id="floor-plan">
+        <h1> YOU CAN USE THIS FEATURE SOON!</h1>
+        <!-- <h2>Digital Floor Plan</h2>
+        <map name="buildingMap">
+            <area shape="rect" coords="50,50,150,150" href="room1.html" alt="Room 1">
+            <area shape="rect" coords="200,50,300,150" href="room2.html" alt="Room 2">
+            </map>
+    </section>
 
-  <main class="container1 about-section">
-    <h2>YOU CAN USE THIS FEATURE SOON!</h2>
+    <section id="room-search">
+        <h2>Search for a Room</h2>
+        <form id="roomSearchForm">
+            <input type="text" id="roomNumberInput" placeholder="Enter Room Number">
+            <button type="button" onclick="searchRoom()">Search</button>
+        </form>
+        <div id="search-result"></div>
+    </section> -->
+
 
 </main>
 
